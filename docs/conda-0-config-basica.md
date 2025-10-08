@@ -5,6 +5,19 @@
 Este contorno permite facer os exercicios da clase. Imos instalar algunhas librarías básicas, o jupyterlab (para os notebook) e configurar o Visual Studio Code (vscode/code) por comodidade.
 
 Pasos:
+0. Baixa as ferramentas necesarias para descargar as demais.
+
+    === "Debian/Ubuntu"
+
+        ``` bash
+        sudo apt install wget curl
+        ```
+
+    === "Fedora/Redhat"
+
+        ``` bash
+        sudo dnf install wget curl
+        ```
 
 1. Baixa miniconda <https://repo.anaconda.com/miniconda/> e instálao no teu equipo. Para Microsoft Windows baixa o instalable, para GNU/Linux emprega:
     ``` bash

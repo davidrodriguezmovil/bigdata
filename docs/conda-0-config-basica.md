@@ -1,4 +1,4 @@
-# ⭕️ Conda: 🐍 Contorno BigData
+# ⭕️ Contorno BigData: 🐍 (mini)conda
 
 ![Logo Anaconda](images/conda-0/Anaconda_Logo.png#derecha "Logo Anaconda")
 

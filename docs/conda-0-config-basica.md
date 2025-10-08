@@ -1,11 +1,12 @@
-# 🐍 Conda: Contorno BigData
+# ⭕️ Conda: 🐍 Contorno BigData
 
 ![Logo Anaconda](images/conda-0/Anaconda_Logo.png#derecha "Logo Anaconda")
 
 Este contorno permite facer os exercicios da clase. Imos instalar algunhas librarías básicas, o jupyterlab (para os notebook) e configurar o Visual Studio Code (vscode/code) por comodidade.
 
 Pasos:
-0. Baixa as ferramentas necesarias para descargar as demais.
+
+1. Baixa as ferramentas necesarias para descargar as demais.
 
     === "Debian/Ubuntu"
 
@@ -19,31 +20,31 @@ Pasos:
         sudo dnf install wget curl
         ```
 
-1. Baixa miniconda <https://repo.anaconda.com/miniconda/> e instálao no teu equipo. Para Microsoft Windows baixa o instalable, para GNU/Linux emprega:
+2. Baixa miniconda <https://repo.anaconda.com/miniconda/> e instálao no teu equipo. Para Microsoft Windows baixa o instalable, para GNU/Linux emprega:
     ``` bash
     wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
     chmod a+rx Miniconda3-latest-Linux-x86_64.sh
     ./Miniconda3-latest-Linux-x86_64.sh
     ```
 
-2. (*Opcional*) Mete miniconda no **PATH** de Microsoft Windows. O instalador di que pode dar problemas, pero é só se temos configuracións previas que empreguen Python e nalgúns casos moi especiais (mira os pasos abaixo).
-3. Actualiza tódolos paquetes do contorno base para que non dea problemas:
+3. (*Opcional*) Mete miniconda no **PATH** de Microsoft Windows. O instalador di que pode dar problemas, pero é só se temos configuracións previas que empreguen Python e nalgúns casos moi especiais (mira os pasos abaixo).
+4. Actualiza tódolos paquetes do contorno base para que non dea problemas:
     ``` bash
     conda update --all
     ```
 
-4. Borra o contorno bigdata anterior:
+5. Borra o contorno bigdata anterior:
     ``` bash
     conda env remove -n bigdata
     ```
 
-5. Crea o novo contorno bigdata e actívao:
+6. Crea o novo contorno bigdata e actívao:
     ``` bash
     conda create -n bigdata python=3.11
     conda activate bigdata
     ```
 
-6. Instala os paquetes mínimos que imos precisar
+7. Instala os paquetes mínimos que imos precisar
     ``` bash
     conda install -c conda-forge jupyterlab ipykernel ipython \
        nbconvert pandas numpy pyarrow fastparquet wordcloud nltk \

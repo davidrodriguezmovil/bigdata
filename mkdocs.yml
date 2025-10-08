@@ -47,7 +47,7 @@ markdown_extensions:
 nav:
   - "📚 Inicio — Presentacións": "index.md"
   - "👷 Contorno/Configuracións":
-      - "🐍 Contorno BigData": "conda-0-config-basica.md"
+      - "⭕️ Contorno BigData": "conda-0-config-basica.md"
       - "🐧 WSL": "windows-wsl.md"
       - "🐋 Docker": "docker-0-base-simple.md"
       - "🛢 Bases de Datos":
@@ -61,9 +61,10 @@ nav:
       - "🦫 DBeaver e túneles SSH": "dbeaver-tunel-ssh.md"
       - "🔑 SSH e túneles": "ssh-0-chaves-tuneles.md"
       - "☕ Java/OpenJDK/Corretto": "amazon-corretto-java-0-instalacion.md"
-      - "🪄 Ipython máxico": "python-1-maxias.md"
-      - "🗂️ Arquivos en Python": "python-0-conceptos-previos.md"
       - "📘 Docker ++": "docker-z-guia-refinitiva.md"
+      - "🐍 Python":
+        - "🪄 Ipython máxico": "python-1-maxias.md"
+        - "🗂️ Arquivos en Python": "python-0-conceptos-previos.md"
   - "🐘 Apache Hadoop":
     - "🧾 Instalación": "apache-hadoop-0-instalacion.md"
     - "🔲 Comandos": "apache-hadoop-1-comandos.md"
@@ -100,6 +101,11 @@ nav:
     - "🐢 SWAP": "nube-5-openstack-crear-swap.md"
     - "⚙️ Automatizando": "nube-6-comandos.md"
   - "📶 Microsoft PowerBi": "powerbi-0-python.md"
+  - "🕸️ Scraping / Ráscao!":
+    - "⚫ Scraping": "scraping.md"
+    - "🥫 Beautiful Soup": "scraping-bs.md"
+    - "✅ Selenium": "scraping-selenium.md"
+    - "🕷️ Scrapy": "scraping-scrapy.md"
   - "🗒️ Plantillas docencia": "https://jfsanchez.es/docencia/libreta"
 extra_css:
   - _res/extra.css

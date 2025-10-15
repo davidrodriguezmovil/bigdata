@@ -1,10 +1,10 @@
-# Jupyter lab
+# 🪐 Jupyter lab
 
 ![Logo Jupyter](images/jupyter/Jupyter_logo.svg#derecha "Logo Jupyter")
 
 Podes empregar jupyter lab dende [vscode instalando o plugin](conda-0-config-basica.md#configurar-visual-studio-code-vscode-con-conda-e-jupyterlab), sen embargo, se queres ver o caderno vía web (de xeito nativo) podes instalar jupyter e arrancalo.
 
-## Instalación
+## 🧾 Instalación
 
 **Prerequisito**: [Instalar conda seguindo a guía](conda-0-config-basica.md).
 
@@ -31,6 +31,6 @@ conda install jupyterlab
 
 3. No caso que non se abrise automáticamente a web do navegador, vai a: <http://localhost:8888/lab>
 
-## Referencias
+## 🔗 Referencias
 
 - [Web oficial de Jupyter](https://jupyter.org/)

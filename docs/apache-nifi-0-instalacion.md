@@ -56,4 +56,3 @@ rm mysql-connector-j-8.4.0.tar.gz mysql-connector-j-9.4.0.tar.gz
 ~~~~
 
 Podes empregar un parámetro dentro dun contexto coa **ruta completa ao JDBC** para engadila rápidamente cando fose preciso. Mira a [páxina de parámetros](apache-nifi-2-parametros.md) para atopar como configuralo deste xeito.
-

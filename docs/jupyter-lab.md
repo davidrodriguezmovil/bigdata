@@ -40,7 +40,7 @@ conda install jupyterlab
 
 ## 📝 Volver a arrancar Jupyter
 
-Cnado xa estea instalado e queiras arrancarlo:
+Cando xa estea instalado e queiras arrancarlo:
 
 1. Activa o **contorno** onde estea instalado.
 ``` bash

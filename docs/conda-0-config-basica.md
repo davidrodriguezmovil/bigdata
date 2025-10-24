@@ -8,13 +8,13 @@ Pasos:
 
 1. Baixa as ferramentas necesarias para descargar as demais.
 
-    === "Debian/Ubuntu"
+    === "🌀 Debian/Ubuntu"
 
         ``` bash
         sudo apt install wget curl
         ```
 
-    === "Fedora/Redhat"
+    === "👒 Fedora/Redhat"
 
         ``` bash
         sudo dnf install wget curl
@@ -58,7 +58,7 @@ Pasos:
 
 ## Engadir miniconda ao PATH
 
-### GNU/Linux 
+### 🐧 GNU/Linux 
 
 O instalador ofrécenos por defecto inicializar conda e metela no PATH, deberíamos optar por esta opción.
 
@@ -68,7 +68,7 @@ Se non o fixemos e non queremos executar de novo o instalador coa opción -u, en
 export PATH=$PATH:$HOME/miniconda3
 ```
 
-### Microsoft Windows
+### 🪟 Microsoft Windows
 
 O instalador tamén ofrece a posibilidade de meter conda no PATH pero o desaconsella, se non o fixeches (non é unha opción por defecto) entón, pódelo meter manualmente como se indica a continuación.
 
@@ -90,11 +90,11 @@ Mirar cal das dúas aplica (mira os directorios e busca onde tes conda instalado
 %USERPROFILE%\Miniconda3\bin
 ~~~~
 
-## Configurar Visual Studio Code (vscode) con conda e jupyterlab
+## Configurar Visual Studio Code (vscode) con conda e Jupyter lab
 
 ![Logo VSCode](images/vscode/vscode.svg#derecha "Logo VSCode")
 
-### Instalar plugin de jupyterlab
+### Instalar plugin de Jupyter lab
 
 Selecciona na roda de configuración (abaixo, esquerda) a opción *"Extensiones"*.
 

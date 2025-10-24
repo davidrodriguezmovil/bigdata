@@ -4,11 +4,11 @@
 
 Subsistema de Windows para Linux. Inicialmente foi concebido como unha capa de compatibilidade para executar programas de GNU/Linux (binarios **ELF**: **E**xtensible **L**inkable **F**ormat) en Microsoft Windows. Actualmente permite incluso executar o kernel real.
 
-## Requisitos previos
+## 📝 Requisitos previos
 
 Considérase unha máquina con Microsoft Windows 10/11.
 
-## Instalación
+## 🧾 Instalación
 
 Require permisos de administrador ou root para instalar por primeira vez o compoñente no sistema.
 
@@ -57,7 +57,9 @@ memory=12G
 ```
 Podes atopar máis información e opcións de configuración do wsl en: <https://learn.microsoft.com/en-us/windows/wsl/wsl-config>
 
-## Entrar no sistema
+## 🔲 Comandos útiles
+
+### Entrar no sistema
 
 Abrimos unha consola de PowerShell e executamos:
 
@@ -79,23 +81,13 @@ wsl -d Debian
 
 Dentro da máquina entrará por defecto co usuario creado, con ese usuario podémonos facer root con comando sudo: ```sudo su```. Pedirache o contrasinal que elixiches ao crear a máquina, non o contrasinal da conta de Microsoft Windows.
 
-## Apagar un WSL
+### Apagar un WSL
 
 ``` bash
 wsl --shutdown -d DISTRO
 ```
 
-## Acceso aos arquivos
-
-Abrir un explorador de arquivos e no enderezo, introduce: **\\wsl$\DISITRIBUCIÓN**. Exemplo con Ubuntu:
-
-~~~~
-\\wsl$\Ubuntu
-~~~~
-
-Os arquivos gárdanse nun ficheiro .vhdx dentro do cartafol: %LOCALAPPDATA%\Packages\ nese cartafol localizamos a nosa distribución: TheDebian... ou CanonicalGroupLimited.Ubuntu... e dentro do cartafol da distro en: **LocalState**.
-
-## Actualización de WSL
+### Actualización de WSL
 
 Abrimos unha consola de PowerShell e escribimos o comando:
 
@@ -103,7 +95,7 @@ Abrimos unha consola de PowerShell e escribimos o comando:
 wsl --update
 ```
 
-## Borrar unha distribución de WSL
+### Borrar unha distribución de WSL
 
 Imaxinemos que queremos borrar a distribución **Ubuntu**:
 
@@ -111,7 +103,7 @@ Imaxinemos que queremos borrar a distribución **Ubuntu**:
 wsl --unregister Ubuntu
 ~~~~
 
-## Exportar e importar unha distribución
+### Exportar e importar unha distribución
 
 Pode ser útil gardar unha copia de seguridade dunha distribución e restaurala.
 
@@ -129,7 +121,17 @@ Normalmente a ruta de instalación por defecto adoita estar baixo: ```C:\Users\*
 
 Ollo, se WSL non detecta o usuario tras unha importación do sistema, devolveranos unha consola de root.
 
-## Erros comúns
+## 📂 Acceso aos arquivos
+
+Podemos acceder aos arquivos dentro do WSL dende Microsoft Windows. Abre un explorador de arquivos e no enderezo, introduce: **\\wsl$\DISITRIBUCIÓN**. Exemplo con Ubuntu:
+
+~~~~
+\\wsl$\Ubuntu
+~~~~
+
+Os arquivos gárdanse nun ficheiro .vhdx dentro do cartafol: %LOCALAPPDATA%\Packages\ nese cartafol localizamos a nosa distribución: TheDebian... ou CanonicalGroupLimited.Ubuntu... e dentro do cartafol da distro en: **LocalState**.
+
+## ⚠️ Erros comúns
 
 ### Erro CreateProcessParseCommon
 

@@ -16,38 +16,46 @@ Dentro do noso HOME (cartafol de usuario). Habitualmente en GNU/Linux: `/home/US
     - 📄 **known_hosts**: Fingerprints dos servidores aos que nos temos conectado. A primeira vez que conectamos cun servidor, avísanos e nos amosa o fingerprint. Teóricamente deberíamos asegurarnos que é correcto para evitar ataques tipo MITM.
     - 📄 **authorized_keys**: Fingerprints das chaves públicas autorizadas a entrar no servidor.
     - 📄 **config**: Para non ter que empregar opcións ao conectar. Pódese empregar unha chave, usuario e redirección de portos diferente por cada host.
-    - 🔑 **id_rsa**: Chave privada (non publicar e protexer por frase de paso) permite descifrar/asinar o que se cifrou coa chave pública.
-    - 🔐 **id_rsa.pub**: Chave pública, pódese publicar e subir aos servidores. Débese engadir ao final do arquivo known_hosts para autorizar a nosa chave.
+    - 🔑 **id_rsa** / **id_dsa** / **ed_25519**: Chave privada (non publicar e protexer por frase de paso) permite descifrar/asinar o que se cifrou coa chave pública.
+    - 🔐 **id_rsa.pub** / **id_dsa.pub** / **ed_25519.pub**: Chave pública, pódese publicar e subir aos servidores. Débese engadir ao final do arquivo known_hosts para autorizar a nosa chave.
 
 Se non existe, podemos facer unha das seguintes cousas para crealo:
 
 - Tentar conectar con calquer servidor por SSH. Exemplo: `ssh localhost`.
 - Xerar unha chave SSH: `ssh-keygen`.
 
-### 🪟 Microsoft Windows
+### Creación dunha chave ssh
 
-Abrimos PowerShell e executamos:
-
-``` bash
-ssh-keygen
-```
-
-Vídeo de Youtube
-
-[![ssh-keygen en Microsoft Windows](https://img.youtube.com/vi/leYE4E9lLOI/default.jpg)](https://youtu.be/leYE4E9lLOI)
-
-
-### 🐧 GNU/Linux
-
-Abrimos unha consola xterm ou similar e executamos:
+En Microsoft Windows podemos abrir un intérprete de comandos cmd ou un PowerShell, en GNU/Linux abrimos calquer terminal e executamos
 
 ``` bash
 ssh-keygen
 ```
 
-Vídeo en ASCIINEMA
+Podes ver a execución en vídeo:
 
-[![asciicast](https://asciinema.org/a/O1BcQeVes6Ncu2sEACF55c1yQ.svg)](https://asciinema.org/a/O1BcQeVes6Ncu2sEACF55c1yQ)
+- [🪟 Microsoft Windows - Creación de chave SSH](https://youtu.be/leYE4E9lLOI)
+- [🐧 GNU/Linux - Creación de chave SSH](https://asciinema.org/a/O1BcQeVes6Ncu2sEACF55c1yQ.svg)
+
+### Creación dunha chave seleccionando o tipo de cifrado
+
+Hai varios tipos de chaves dependendo do cifrado elexido: RSA, DSA, ECDSA, ED_25519. As antigas chaves RSA son quizais máis compatibles aínda que algo máis longas e lentas. Unha chave RSA estándar e compatible con case tódolos sistemas terá un tamaño estándar de 2048 bits se ven é habitual atopalas de 4096 bits. Por outra banda as novas chaves ED_25519 (Elliptic Curve Cryptography: ECC) son algo máis rápidas, máis curtas e robustas e teñen un tamaño fixo.
+
+=== "Curva elíptica"
+
+    ``` bash
+    ssh-keygen -t ed25519
+    ```
+
+=== "RSA"
+
+    ``` bash
+    ssh-keygen -t rsa
+    ```
+
+
+Se queremos gardar a chave nun directorio específico, podemos empregar o parámetro `-f ruta-ao-arquivo`. Isto resulta útil cando queremos ter varias chaves.
+
 
 ## 🚇 Tunelización SSH: Empregando SSH para redireccionar portos (SSH Port Forwarding)
 

@@ -48,6 +48,7 @@ nav:
   - "📚 Inicio — Presentacións": "index.md"
   - "👷 Contorno/Configuracións":
       - "⭕️ Contorno BigData": "conda-0-config-basica.md"
+      - "🪐 Jupyter Lab": "jupyter-lab.md"
       - "🐧 WSL": "windows-wsl.md"
       - "🐋 Docker": "docker-0-base-simple.md"
       - "🛢 Bases de Datos":

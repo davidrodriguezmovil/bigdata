@@ -1,0 +1,16 @@
+La idea central de Big Data es extraer información útil a partir de datos masivos para apoyar la toma de decisiones.
+Big Data es un concepto de moda que, según lo que entiendo, utilizan para hablar de la mayoría de datos que se tratan en las empresas. En resumen es un gran volumen de datos muy variados, aunque no hay un mínimo donde deje de ser "Big" Data e imagino que según avance el tiempo seguirá aumentando lo que se entiende por gran cantidad de datos.  
+什么是大数据什 么是大数据什么是 大数据什么是大数据什么是大数 据什么是大数据什么 是大数据什 么是大数据
+Quizá os amigos que fixemos polo camiño.
+Outra definición do Big Data e a adquisción e manipulación de grandes volumes de datos moi variados para obter información de valor, de acordo a reglas seguidas polas mil V.
+Podemos definir Big Data como el conjunto de datos masivos, que pueden ser procesados y analizados con las herramientas de las que disponemos para luego tomar decisiones.  
+El Big Data se refiere a un conjunto de datos, obtenidos con el fin de analizarlos, procesarlos e interpretarlos... cuyo uso puede servir para identificar patrones, comportamientos o tendencias, útiles por ejemplo para sacar una ventaja competitiva en cualquier sector (comercio, deporte, marketing...)
+El big data hace referencia a un conjunto de datos grandes y complejos que, a diferencia de datos de menor magnitud, son más difíciles de analizar si no se utilizan las herramientas adecuadas.
+El big data hace referencia al conjunto masivo de datos recopilado por todo y empleado para su análisis con el fin de obtener conocimientos y tomar mejores decisiones.
+El big data es el estudio de grandes volúmenes de datos, es decir, su almacenamiento, manejo y análisis.
+Llamamos Big Data a los conjuntos de datos masivos y complejos que los sistemas tradicionales de gestión de datos no pueden manejar en un tiempo razonable y  requieren de una tecnología especifica y métodos analíticos para su manejo.
+Es la tecnología que se encarga del tratamiento de grandes cantidades de datos que no pueden ser manejados por medios tradicionales.
+El Big Data, como su traducción indica, se trata de una gran cantidad de datos y sobre todo, del uso que se le puede dar a ellos. La forma de analizarlos, buscar patrones y relacionarlos entre si es su mayor cualidad que atrae a las empresas, interesadas en aprovecharlos para buscar un beneficio, generalmente económico, pero debido a la versatilidad de usos puede ser de diversos tipos
+Desde mi punto de vista BigData es un cumulo de datos con un volumen que podamos considerar "importante", donde se almacenan datos de múltiples estilos y que se gestionan con cierta velocidad, por lo que dimos en clase hay mil formas más de caracterizar el BigData mediante Vs, pero las principales para mi son estas.
+Gestion masiva y analisis de diversos tipos de datos
+Big Data es el manejo de grades volúmenes de datos complejos y variados.
